@@ -9,10 +9,12 @@ Instalar mySQL.
 Crear base de datos denominada "LoginSystem"
 Crear una tabla llamada "users"
 Crear una fila con los siguientes valores:
-id: AI - username: gerente - password: pass123
+id: AI (Auto Incremental) - username: gerente - password: pass123
 
 #Iniciar el servidor con:
 node index.js / nodemon
 
 #Para iniciar el cliente:
 npm start
+
+(Falta añadir registro y hashing)
